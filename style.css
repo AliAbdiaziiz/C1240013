@@ -1,0 +1,277 @@
+header{
+    background-color: #f6f9fc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* border: 3px solid rgb(10, 10, 117); */
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+    box-shadow:5px 5px 3px azure;
+    
+}
+.topic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.topic h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.topic h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.loogo{
+    display: flex;
+    align-items: center;
+}
+.loogo img{
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+.loogo h1{
+    font-size: 22px;
+    color: #1c2c5c;
+}
+/* .loogo h1 span{
+    color: #1c2c5c;
+} */
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+li a{
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 5px;
+    font-size: larger;
+}
+a:active{
+    color: orange;
+}
+a:hover{
+    color: orange;
+}
+  body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .moving-background {
+      height: 100vh;
+      background-image: url(https://media.gettyimages.com/id/1461392975/photo/mogadishu-somalia-somali-fishing-boats-are-seen-in-the-old-port-and-traditional-lighthouse-at.jpg?s=612x612&w=0&k=20&c=MDVCwv4FdPIaewbq_j954RcCEMooTePIWjRTQGmnZRM=);
+      background-size: cover;
+      background-repeat: repeat-x;
+      animation: moveBackground 40s linear infinite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2em;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    @keyframes moveBackground {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 1000px 0;
+      }
+    }
+    section{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    .container{
+        display: flex;
+        height: 50vh;
+    }
+    .level{
+        flex: 1;
+        padding: 20px;
+        border: 2px solid #ccc;
+        box-sizing: border-box;
+        background-color: #1c2c5c;
+        color: white;
+        margin: 20px;
+        width: 20%;
+        border-radius: 12px;
+    }
+    .links{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-color: #1c2c5c;
+    }
+    .link{
+            display: flex;
+        height: 50vh;
+    }
+    .content{
+           flex: 1;
+        padding: 20px;
+        box-sizing: border-box;
+        color: white;
+        margin: 20px;
+        width: 20%;
+        border-radius: 12px;
+    }
+    .content h3{
+        color: orange;
+    }
+    .link ul li{
+        list-style: none;
+    }
+    /* .link li a{
+        text-decoration: none;
+        color: white;
+    } */
+    
+    .link li{
+        margin-bottom: 15px;
+    }
+    .footer{
+        color: white;
+        text-align: center;
+        font-size: medium;
+    }
+    .visit{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        gap: 40px;
+        
+    }
+    .photo{
+       flex: 1;
+    }
+    .photo img{
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .qoraal{
+        flex: 1;
+    }
+    .qoraal h1{
+        margin-bottom: 10px;
+    }
+    
+    
+    .main-content{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    .wrapp{
+         display: flex;
+        height: 70vh;
+    }
+    .city{
+         flex: 1;
+        padding: 20px;
+        border: 2px solid whitesmoke;
+        box-sizing: border-box;
+        background-color: whitesmoke;
+        
+        margin: 20px;
+        width: 20%;
+        border-radius: 12px;
+    }
+    .extra-main{
+           margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    .main{
+         display: flex;
+        height: 70vh;
+    }
+    .city1{
+         flex: 1;
+        padding: 20px;
+        border: 2px solid whitesmoke;
+        box-sizing: border-box;
+       background-color: whitesmoke;
+        margin: 20px;
+        width: 20%;
+        border-radius: 12px;
+    }
+    .pic1{
+        width: 300px;
+        height: 150px;
+    
+    }
+    .cinwaan{
+margin: 40px;
+    }
+    .cinwaan h1{
+        color: skyblue;
+    }
+    .forms{
+         display: flex;
+        height: 60vh;
+        margin: 20px;
+    }
+    .tips{
+       width: 25%;
+       padding: 20px;
+       background-color: #1c2c5c;
+       color: white;
+    }
+    .form{
+        width: 75%;
+        padding: 20px;
+        
+    }
+    input{
+        width: 450px;
+        height: 30px;
+    }
+    #submit-data{
+        background-color: #1c2c5c;
+        color: white;
+        text-align: center;
+        font-size:smaller;
+    }
+    #ali{
+        margin: 40px;
+    }
+    #ali h1{
+        color: skyblue;
+    }
+    .icon {
+      margin-right: 10px;
+      font-size: 20px;
+    }
+
+    .twitter { color: orange; }
+    .youtube { color: orange; }
+    .instagram { color: orange; }
+    .facebook { color: orange; }
+     .call-icon {
+      color: white;
+      margin-right: 0;
+      font-size: 30px;
+    }
+    .aka{
+        margin: 40px;
+        font-size: xx-large;
+        margin-right: 0;
+        background-color: orange;
+        border-radius: 40px;
+       
+    }
